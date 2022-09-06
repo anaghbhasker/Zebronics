@@ -1,0 +1,597 @@
+.body {
+    overflow: hidden;
+}
+
+#img-logo {
+    padding-left: 120px;
+}
+
+.navbar-nav {
+    margin-left: 10px;
+    color: #191919;
+    font-family: 'Poppins';
+    font-weight: 900px;
+    font-size: 13px;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin-left: 0px;
+    color: black;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: #00aeef;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+
+    background-color: #00aeef;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    transform: scaleX(0);
+}
+
+.nav-link:hover::after {
+
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.word1 h4 {
+    font-size: 24px;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+/* Third Page */
+#Card1 {
+    background-color: #00aeef;
+    background-image: url(Media/Zeb-Earbuds_6675c93e-446d-48d6-89f9-9454f8e87648_x200.jpg);
+
+    width: 100%;
+    height: 100px;
+    background-size: 100% 100%;
+    width: 220px;
+    margin-right: 20px;
+    border-radius: 4%;
+    margin-bottom: 20px;
+}
+
+#Card2 {
+    background-color: #00aeef;
+    background-image: url(Media/zeb-Gaming_4ff2e3be-0c73-4973-b49d-d9b1ca23d529_x200.jpg);
+    width: 100%;
+    height: 100px;
+    background-size: 100% 100%;
+    width: 220px;
+    margin-right: 20px;
+    border-radius: 4%;
+    margin-bottom: 20px;
+}
+
+#Card3 {
+    background-color: #00aeef;
+    background-image: url(Media/Zeb-Headphone_fce33096-47b6-45ec-b374-fb0ed3542ef8_x200.jpg);
+    width: 100%;
+    height: 100px;
+    background-size: 100% 100%;
+    width: 220px;
+    margin-right: 20px;
+    border-radius: 4%;
+    margin-bottom: 20px;
+}
+
+#Card4 {
+    background-color: #00aeef;
+    background-image: url(Media/Zeb-Kai-Trending-_products_x200.jpg);
+    width: 100%;
+    height: 100px;
+    background-size: 100% 100%;
+    width: 220px;
+    margin-right: 20px;
+    border-radius: 4%;
+    margin-bottom: 20px;
+}
+
+#Card5 {
+    background-color: #00aeef;
+    background-image: url(Media/Zeb-keybord_f756b4ac-c720-42d8-809a-e7d93c8bf9c4_x200.jpg);
+    width: 100%;
+    height: 100px;
+    background-size: 100% 100%;
+    width: 220px;
+    margin-right: 20px;
+    border-radius: 4%;
+    margin-bottom: 20px;
+}
+
+#Card6 {
+    background-color: #00aeef;
+    background-image: url(Media/Zeb-PC_speaker_ae34509c-bf9f-49c4-9b3d-82d6ebd09df3_x200.jpg);
+    width: 100%;
+    height: 100px;
+    background-size: 100% 100%;
+    width: 220px;
+    margin-right: 20px;
+    border-radius: 4%;
+    margin-bottom: 20px;
+}
+
+#Card7 {
+    background-color: #00aeef;
+    background-image: url(Media/Zeb-powerbank_93316f75-ba13-4765-ba10-1f8050ef93ac_x200.jpg);
+    width: 100%;
+    height: 100px;
+    background-size: 100% 100%;
+    width: 220px;
+    margin-right: 20px;
+    border-radius: 4%;
+    margin-bottom: 20px;
+}
+
+#Card8 {
+    background-color: #00aeef;
+    background-image: url(Media/Zeb-Smart_Camera_x200.jpg);
+    width: 100%;
+    height: 100px;
+    background-size: 100% 100%;
+    width: 220px;
+    margin-right: 20px;
+    border-radius: 4%;
+    margin-bottom: 20px;
+}
+
+#Card9 {
+    background-color: #00aeef;
+    background-image: url(Media/Zeb-Smart_watches_421ea898-8d98-4344-a7ed-2425d6d3cb24_x200.jpg);
+    width: 100%;
+    height: 100px;
+    background-size: 100% 100%;
+    width: 220px;
+    margin-right: 20px;
+    border-radius: 4%;
+    margin-bottom: 20px;
+}
+
+#Card10 {
+    background-color: #00aeef;
+    background-image: url(Media/Zeb-Soundbar_01a81495-f7ef-4bd2-a83b-6bdfe778cb5f_x200.jpg);
+    width: 100%;
+    height: 100px;
+    background-size: 100% 100%;
+    width: 220px;
+    margin-right: 20px;
+    border-radius: 4%;
+    margin-bottom: 20px;
+}
+
+#Card1:hover {
+    background-image: none;
+
+}
+
+#Card2:hover {
+    background-image: none;
+}
+
+#Card3:hover {
+    background-image: none;
+}
+
+#Card4:hover {
+    background-image: none;
+}
+
+#Card5:hover {
+    background-image: none;
+}
+
+#Card6:hover {
+    background-image: none;
+}
+
+#Card7:hover {
+    background-image: none;
+}
+
+#Card8:hover {
+    background-image: none;
+}
+
+#Card9:hover {
+    background-image: none;
+}
+
+#Card10:hover {
+    background-image: none;
+}
+
+#Card1:hover #h3 {
+    color: #efbd33;
+}
+
+#Card2:hover #h3 {
+    color: #efbd33;
+}
+
+#Card3:hover #h3 {
+    color: #efbd33;
+}
+
+#Card4:hover #h3 {
+    color: #efbd33;
+}
+
+#Card5:hover #h3 {
+    color: #efbd33;
+}
+
+#Card6:hover #h3 {
+    color: #efbd33;
+}
+
+#Card7:hover #h3 {
+    color: #efbd33;
+}
+
+#Card8:hover #h3 {
+    color: #efbd33;
+}
+
+#Card9:hover #h3 {
+    color: #efbd33;
+}
+
+#Card10:hover #h3 {
+    color: #efbd33;
+}
+
+#pics h3 {
+    color: #F7F8FA;
+    padding-top: 40px;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.multi {
+    padding-left: 5%;
+}
+
+@media(max-width : 720px) {
+
+    #Card1,
+    #Card2,
+    #Card3,
+    #Card4,
+    #Card5,
+    #Card6,
+    #Card7,
+    #Card8,
+    #Card9,
+    #Card10 {
+        width: 200px
+    }
+}
+@media(max-width : 500px) {
+
+    #Card1,
+    #Card2,
+    #Card3,
+    #Card4,
+    #Card5,
+    #Card6,
+    #Card7,
+    #Card8,
+    #Card9,
+    #Card10 {
+        width: 155px;
+        margin-left:25px;
+    }
+}
+@media(max-width:1262px){
+    .multi {
+        padding-left: 10%;
+    }
+}
+@media(max-width:440px){
+    #Card1,
+    #Card2,
+    #Card3,
+    #Card4,
+    #Card5,
+    #Card6,
+    #Card7,
+    #Card8,
+    #Card9,
+    #Card10 {
+        
+        margin-left:25%;
+    }
+}
+
+/* Shoping Cart  */
+#card-1 {
+    border: none;
+    background-image: url("Media/prise1.jpg");
+    height: 300px;
+    background-size: 100% 100%;
+}
+
+#card-1:hover {
+    background-image: url("Media/prise1a.jpg");
+}
+
+#card-2 {
+    border: none;
+    background-image: url("Media/prise2.jpg");
+    height: 300px;
+    background-size: 100% 100%;
+
+}
+
+#card-2:hover {
+    background-image: url("Media/prise2b.jpg");
+}
+
+#card-3 {
+    border: none;
+    background-image: url("Media/prise3.jpg");
+    height: 300px;
+    background-size: 100% 100%;
+
+}
+
+#card-3:hover {
+    background-image: url("Media/prise3c.jpg");
+}
+
+#card-4 {
+    border: none;
+    background-image: url("Media/prise4.jpg");
+    height: 300px;
+    background-size: 100% 100%;
+
+}
+
+#card-4:hover {
+    background-image: url("Media/prise4d.jpg");
+}
+
+#card-5 {
+    border: none;
+    background-image: url("Media/prise5.jpg");
+    height: 300px;
+    background-size: 100% 100%;
+
+}
+
+#card-5:hover {
+    background-image: url("Media/prise5e.jpg");
+}
+
+#card-6 {
+    border: none;
+    background-image: url("Media/prise6.jpg");
+    height: 300px;
+    background-size: 100% 100%;
+
+}
+
+#card-6:hover {
+    background-image: url("Media/prise6f.jpg");
+}
+
+#card-7 {
+    border: none;
+    background-image: url("Media/prise7.jpg");
+    height: 300px;
+    background-size: 100% 100%;
+
+}
+
+#card-7:hover {
+    background-image: url("Media/prise7g.jpg");
+}
+
+#card-8 {
+    border: none;
+    background-image: url("Media/prise8.jpg");
+    height: 300px;
+    background-size: 100% 100%;
+
+}
+
+#card-8:hover {
+    background-image: url("Media/prise8h.jpg");
+}
+.row a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    color: #191919;
+    font-size: 14px;
+}
+.row h5{
+    color: #999999;
+    font-size: 12px;
+}
+.row a:hover{
+    color: #2879fe;
+}
+.row h5:hover{
+    color: #2879fe; 
+}
+
+/*  */
+
+#animation-tittle p{
+    font-family: 'Poppins';
+    color: #191919;
+    font-size: 16px;
+    font-weight: bold;
+}
+#animation-1 {
+    border: none;
+    background-image: url("Media/animation1.jpg");
+    height: 350px;
+    background-size: 100% 100%;
+}
+#animation-2 {
+    border: none;
+    background-image: url("Media/animation2.jpg");
+    height: 350px;
+    background-size: 100% 100%;
+}
+#animation-3 {
+    border: none;
+    background-image: url("Media/animation3.jpg");
+    height: 350px;
+    background-size: 100% 100%;
+}
+#animation-4 {
+    border: none;
+    background-image: url("Media/animation4.jpg");
+    height: 350px;
+    background-size: 100% 100%;
+}
+#animation-5 {
+    border: none;
+    background-image: url("Media/animation5.jpg");
+    height: 350px;
+    background-size: 100% 100%;
+}
+#animation-6 {
+    border: none;
+    background-image: url("Media/animation6.jpg");
+    height: 350px;
+    background-size: 100% 100%;
+}
+.animation-body p{
+    color: #191919;
+    font-family: 'Poppins';
+    font-size: 23px;
+    font-weight: bold;
+}
+.animation-body h6{
+    font-family: 'Poppins';
+    color: #777777;
+    font-size: 14px;
+}
+.animation-zoom:hover p {
+    color: #00aeef;
+}
+.animation-btn{
+    font-family: 'Poppins';
+    color: #FFFFFF;
+    background-color: #00AEEF;
+    width: 50%;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+}
+.animation-btn:hover{
+    background-color: #fcba04;
+    color: #191919;
+}
+
+/* Last */
+
+.instagram-last h2{
+    font-size: 24px;
+}
+.insta{
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+.instagram-last a:hover{
+    text-decoration: none;
+}
+#last5pic{
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  #last5pic:hover .image {
+    opacity: 0.3;
+  }
+  
+  #last5pic:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    padding: 16px 32px;
+  }
+  .fstline{
+    font-family: 'Poppins';
+    color: #000000;
+    font-size: 16.8px;
+    font-weight: 600;
+  }
+  .secondlines{
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #000000;
+  }
+  .since-1997 a{
+    color: #000000;
+  }
+  .since-1997 a:hover{
+    color: #00aeef;
+  }
+
+  /* Footer */
+
+  .footerr h5{
+    color: #191919;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 900;
+    text-decoration: none;
+  }
+  .footerr a{
+    color: #777777;
+    font-family: 'Poppins';
+    font-size: 14px;
+  }
+  .footerr a:hover{
+    text-decoration: underline;
+  }
+  .emailfont{
+    font-family: 'Poppins';
+  }
+  .freak{
+    background-color: #00AEEF;
+    font-family: 'Poppins';
+  }
+  .freak:hover{
+    background-color: #fcba04;
+  }
